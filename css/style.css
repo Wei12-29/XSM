@@ -1,0 +1,17 @@
+body {
+  background: #ff5555;
+  overflow: hidden;
+  margin: 0;
+  /* background-color: #000 !important; */
+
+
+}
+ span{
+    /* 让弹出来的文字不被选中，影响操作体验 */
+    user-select: none;
+    cursor: default;
+    font-size: 20px;
+    color: blanchedalmond;
+    position: absolute;
+    transition: 1s;
+  }
